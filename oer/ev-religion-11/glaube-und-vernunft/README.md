@@ -9,8 +9,11 @@ aus dem Lernbereich **„Glaube und Vernunft – alte und neue Herausforderungen
 
 ## Mini-Website (Lernarrangement)
 
-[`web/index.html`](web/index.html) — interaktive Single-Page-Site mit
-Schüler:innen- und Lehrkraft-Modus. Einfach öffnen oder über einen
+🌐 **Live (GitHub Pages):**
+<https://joerglohrer.github.io/glaube-vernunft-algorithmus/oer/ev-religion-11/glaube-und-vernunft/web/>
+
+Lokal: [`web/index.html`](web/index.html) — interaktive Single-Page-Site
+mit Schüler:innen- und Lehrkraft-Modus. Einfach öffnen oder über einen
 einfachen lokalen Server ausliefern (z. B.
 `python3 -m http.server` im Ordner `web/`).
 
