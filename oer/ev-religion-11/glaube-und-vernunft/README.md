@@ -19,6 +19,9 @@ Features:
 - Geführter Pfad durch alle fünf Phasen
 - Toggle „Schüler:innen-Ansicht ↔ Lehrkraft-Ansicht" (Lehrkraft-Modus
   blendet Sachanalyse, Hinweise und Bewertungsraster ein)
+- **Animierte Phone-Mockups** der beiden Reels (HTML/CSS/JS, ohne Video)
+  — mit zeitgesteuerten Captions, mitlaufendem Like-Counter und
+  Play/Pause-Steuerung
 - Interaktiver Analysebogen mit lokaler Speicherung & Export-Button
 - Wortzähler für den Schreibauftrag
 - Druckfreundliches Stylesheet (zeigt im Druck automatisch die
@@ -35,6 +38,7 @@ Features:
 | [`material/material-c-kommentarspalte.md`](material/material-c-kommentarspalte.md) | Konstruierte Kommentarspalte zum Klimawandel |
 | [`material/schreibauftrag-mit-bewertungsraster.md`](material/schreibauftrag-mit-bewertungsraster.md) | Schreibauftrag „Differenzierter Kommentar" mit Raster |
 | [`material/tafelbild-spiegelbild.md`](material/tafelbild-spiegelbild.md) | Tafelbild-Vorlage zur Begriffsklärung |
+| [`material/drehbuch-reels.md`](material/drehbuch-reels.md) | Sprecher-Skripte & Shotlist für Eigenproduktion der Reels |
 
 ## Lehrplan-Bezug
 
