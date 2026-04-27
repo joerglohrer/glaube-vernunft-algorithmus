@@ -127,11 +127,61 @@
       font-size: .9rem;
     }
     footer.site a { color: var(--accent); }
-    code.path {
-      background: #efe9dd;
-      padding: .08em .35em;
-      border-radius: 4px;
-      font-size: .9em;
+    .hint {
+      color: var(--muted);
+      font-size: .92rem;
+      margin: -.4rem 0 .9rem;
+    }
+    .contribute {
+      margin-top: 2.4rem;
+      padding: 1.6rem 1.6rem 1.4rem;
+      background: linear-gradient(180deg, #fffaf0, #fff6e6);
+      border: 1px solid #e7d6b0;
+      border-radius: 12px;
+    }
+    .contribute h2 {
+      margin-top: 0;
+      font-size: 1.35rem;
+    }
+    .contribute > p {
+      color: var(--fg);
+      margin: 0 0 1rem;
+    }
+    .contribute-ways {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1.2rem;
+      display: grid;
+      gap: .55rem;
+    }
+    .contribute-ways li {
+      padding: .65rem .85rem;
+      background: rgba(255,255,255,.7);
+      border: 1px solid rgba(231, 214, 176, .7);
+      border-radius: 8px;
+      font-size: .96rem;
+      color: var(--fg);
+    }
+    .repo-cta {
+      margin: 0;
+      text-align: center;
+    }
+    .repo-link {
+      display: inline-block;
+      padding: .75rem 1.4rem;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: background .12s ease, transform .12s ease;
+    }
+    .repo-link:hover,
+    .repo-link:focus-visible {
+      background: #553a22;
+      transform: translateY(-1px);
+      outline: none;
     }
   </style>
 </head>
@@ -166,26 +216,54 @@
     </a>
 
     <h2>Druckvorlagen & Quellen (Markdown)</h2>
+    <p class="hint">
+      Auf GitHub gerendert — bequem lesbar, mit Bearbeiten-Button für
+      Korrekturen und Vorschläge.
+    </p>
 
     <ul class="flat">
-      <li><a href="oer/ev-religion-11/glaube-und-vernunft/README.md">README des Entwurfs</a></li>
-      <li><a href="oer/ev-religion-11/glaube-und-vernunft/unterrichtsentwurf.md">Unterrichtsentwurf</a></li>
-      <li><a href="oer/ev-religion-11/glaube-und-vernunft/material/tafelbild-spiegelbild.md">Tafelbild „Spiegelbild"</a></li>
-      <li><a href="oer/ev-religion-11/glaube-und-vernunft/material/analysebogen.md">Analysebogen</a></li>
-      <li><a href="oer/ev-religion-11/glaube-und-vernunft/material/material-a-szientismus-reel.md">Material A — Szientismus-Reel</a></li>
-      <li><a href="oer/ev-religion-11/glaube-und-vernunft/material/material-b-fundamentalismus-tiktok.md">Material B — Fundamentalismus-TikTok</a></li>
-      <li><a href="oer/ev-religion-11/glaube-und-vernunft/material/material-c-kommentarspalte.md">Material C — Kommentarspalte</a></li>
-      <li><a href="oer/ev-religion-11/glaube-und-vernunft/material/schreibauftrag-mit-bewertungsraster.md">Schreibauftrag + Bewertungsraster</a></li>
-      <li><a href="oer/ev-religion-11/glaube-und-vernunft/material/drehbuch-reels.md">Drehbuch Reels</a></li>
+      <li><a href="https://github.com/joerglohrer/glaube-vernunft-algorithmus/blob/main/oer/ev-religion-11/glaube-und-vernunft/README.md">README des Entwurfs</a></li>
+      <li><a href="https://github.com/joerglohrer/glaube-vernunft-algorithmus/blob/main/oer/ev-religion-11/glaube-und-vernunft/unterrichtsentwurf.md">Unterrichtsentwurf</a></li>
+      <li><a href="https://github.com/joerglohrer/glaube-vernunft-algorithmus/blob/main/oer/ev-religion-11/glaube-und-vernunft/material/tafelbild-spiegelbild.md">Tafelbild „Spiegelbild"</a></li>
+      <li><a href="https://github.com/joerglohrer/glaube-vernunft-algorithmus/blob/main/oer/ev-religion-11/glaube-und-vernunft/material/analysebogen.md">Analysebogen</a></li>
+      <li><a href="https://github.com/joerglohrer/glaube-vernunft-algorithmus/blob/main/oer/ev-religion-11/glaube-und-vernunft/material/material-a-szientismus-reel.md">Material A — Szientismus-Reel</a></li>
+      <li><a href="https://github.com/joerglohrer/glaube-vernunft-algorithmus/blob/main/oer/ev-religion-11/glaube-und-vernunft/material/material-b-fundamentalismus-tiktok.md">Material B — Fundamentalismus-TikTok</a></li>
+      <li><a href="https://github.com/joerglohrer/glaube-vernunft-algorithmus/blob/main/oer/ev-religion-11/glaube-und-vernunft/material/material-c-kommentarspalte.md">Material C — Kommentarspalte</a></li>
+      <li><a href="https://github.com/joerglohrer/glaube-vernunft-algorithmus/blob/main/oer/ev-religion-11/glaube-und-vernunft/material/schreibauftrag-mit-bewertungsraster.md">Schreibauftrag + Bewertungsraster</a></li>
+      <li><a href="https://github.com/joerglohrer/glaube-vernunft-algorithmus/blob/main/oer/ev-religion-11/glaube-und-vernunft/material/drehbuch-reels.md">Drehbuch Reels</a></li>
     </ul>
 
-    <h2>Mitwirken</h2>
-    <p>
-      Pull Requests mit Korrekturen, Erweiterungen oder weiteren
-      Entwürfen sind willkommen. Beiträge werden ebenfalls unter CC0
-      lizenziert. Repository:
-      <code class="path">github.com/joerglohrer/glaube-vernunft-algorithmus</code>
-    </p>
+    <section class="contribute">
+      <h2>Mitmachen — gemeinsam besser werden</h2>
+      <p>
+        Diese Materialien leben davon, dass andere sie nutzen, anpassen
+        und zurückspielen. Egal ob Tippfehler, didaktische Idee, neuer
+        Entwurf oder ganz andere Schulart — <strong>jede Form von
+        Beitrag ist willkommen</strong>. Beiträge stehen ebenfalls unter
+        CC0.
+      </p>
+      <ul class="contribute-ways">
+        <li>
+          <strong>Kleine Korrektur?</strong> Auf GitHub im Browser
+          bearbeiten („Edit"-Stift oben rechts in der Datei) — daraus
+          wird automatisch ein Pull Request.
+        </li>
+        <li>
+          <strong>Größere Erweiterung?</strong> Repository forken,
+          Branch anlegen, Pull Request öffnen.
+        </li>
+        <li>
+          <strong>Idee oder Frage?</strong> Issue auf GitHub eröffnen.
+        </li>
+      </ul>
+      <p class="repo-cta">
+        <a class="repo-link"
+           href="https://github.com/joerglohrer/glaube-vernunft-algorithmus"
+           target="_blank" rel="noopener">
+          → Zum Repository auf GitHub
+        </a>
+      </p>
+    </section>
 
   </main>
 

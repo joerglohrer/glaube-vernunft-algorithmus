@@ -44,7 +44,7 @@ Features:
 
 LehrplanPLUS Bayern, GY, Ev. Religionslehre 11, Lernbereich 1
 („Glaube und Vernunft – alte und neue Herausforderungen"),
-URI: <https://lp-bavaria.org/lis_live_isb.c.300638.de>
+URI: <https://www.lehrplanplus.bayern.de/fachlehrplan/lernbereich/291718>
 
 Konkreter Inhaltspunkt:
 > „ein Beispiel für Pauschalisierungen und Absolutsetzungen im

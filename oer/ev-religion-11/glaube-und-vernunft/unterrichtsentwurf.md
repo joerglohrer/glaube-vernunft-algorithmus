@@ -13,7 +13,7 @@
 **Fach:** Evangelische Religionslehre
 **Jahrgangsstufe:** 11
 **Lernbereich:** „Glaube und Vernunft – alte und neue Herausforderungen"
-**Lehrplan-URI:** <https://lp-bavaria.org/lis_live_isb.c.300638.de>
+**Lehrplan-URI:** <https://www.lehrplanplus.bayern.de/fachlehrplan/lernbereich/291718>
 
 ### Adressierter Inhaltspunkt
 
