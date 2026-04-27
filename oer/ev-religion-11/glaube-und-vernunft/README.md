@@ -7,7 +7,24 @@ Absolutsetzungen im Spannungsfeld von Szientismus und Fundamentalismus"*
 aus dem Lernbereich **„Glaube und Vernunft – alte und neue Herausforderungen"**
 (LehrplanPLUS Bayern, Ev. Religionslehre 11, GY).
 
-## Dateien
+## Mini-Website (Lernarrangement)
+
+[`web/index.html`](web/index.html) — interaktive Single-Page-Site mit
+Schüler:innen- und Lehrkraft-Modus. Einfach öffnen oder über einen
+einfachen lokalen Server ausliefern (z. B.
+`python3 -m http.server` im Ordner `web/`).
+
+Features:
+
+- Geführter Pfad durch alle fünf Phasen
+- Toggle „Schüler:innen-Ansicht ↔ Lehrkraft-Ansicht" (Lehrkraft-Modus
+  blendet Sachanalyse, Hinweise und Bewertungsraster ein)
+- Interaktiver Analysebogen mit lokaler Speicherung & Export-Button
+- Wortzähler für den Schreibauftrag
+- Druckfreundliches Stylesheet (zeigt im Druck automatisch die
+  Lehrkraft-Inhalte)
+
+## Markdown-Vorlagen (Druck und Weiterverarbeitung)
 
 | Datei | Zweck |
 |---|---|
